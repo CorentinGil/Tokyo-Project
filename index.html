@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Compte à rebours Japon</title>
+</head>
+<body>
+    <div class="countdown-container">
+        <h1>Départ au Japon dans :</h1>
+        <div id="countdown"></div>
+    </div>
+
+    <div class="converter-container">
+        <h1>Comparateur Euro en Yen</h1>
+        <label for="euroAmount">Montant en Euro :</label>
+        <input type="number" id="euroAmount" placeholder="Entrez le montant en Euro">
+        <button onclick="convertEuroToYen()">Convertir</button>
+        <p id="result"></p>
+    </div>
+
+    
+    <script src="converter.js"></script>
+</body>
+</html>
